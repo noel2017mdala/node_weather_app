@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    {{>header}}
+    <h1>{{title}}</h1>
+    <p>{{name}}</p>
+
+          <form action="get">
+          <input type="text" class='userInput' name="location" placeholder="Search for the location">
+          <button id ="submit" type="submit">Search</button>
+      </form>
+      <p id="message"></p>
+      <p> {{>footer}}</p>
+
+
+
+       <script src='./javascript/index.js'></script>
+</body>
+</html> 
