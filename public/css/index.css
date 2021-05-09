@@ -26,8 +26,8 @@ img {
 .success {
   color: lightgreen;
 }
-@media (max-width: 40em) {
+/* @media (max-width: 40em) {
   img {
     display: none;
   }
-}
+} */
